@@ -144,9 +144,13 @@ body {
   color: var(--text-subtitle-color);
 }
 
-.hero-overlay {
+.hero {
   display: block;
   position: relative;
+}
+
+.hero-overlay {
+  margin: 0px auto;
 }
 
 .hero-wrapper {
