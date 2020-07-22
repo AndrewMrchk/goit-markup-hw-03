@@ -146,6 +146,16 @@ body {
   color: var(--text-subtitle-color);
 }
 
+.hero {
+  display: flex;
+  col
+}
+
+.hero-overlay {
+  display: block;
+  position: relative;
+}
+
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -153,6 +163,11 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--white-text-color);
 }
 
 .order-button {
@@ -168,6 +183,10 @@ h1 {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white-text-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .advantage-item-title {
@@ -179,6 +198,11 @@ h1 {
   color: var(--link-title-color);
 }
 
+.advantage-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .advantage-list-item {
   width: 270px;
 }
@@ -188,6 +212,9 @@ h1 {
   height: 120px;
   border-radius: 4px;
   background-color: var(--section-icon-background-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .advantage-list-item p {
