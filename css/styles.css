@@ -264,14 +264,11 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0px;
-  padding: 0px;
+  padding: 27px 0px;
   color: var(--white-text-color);
   background-color: var(--background-color-employment);
 }
 
-/* .our-team {
-  padding: 94px 0px;
-} */
 .team-list {
   display: flex;
   flex-wrap: wrap;
