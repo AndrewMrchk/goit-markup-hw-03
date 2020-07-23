@@ -440,6 +440,10 @@ input {
   background-color: var(--hover-logo-color);
 }
 
+.accept span {
+  margin-right: 10px;
+}
+
 /* Portfolio page */
 
 .filter-button {
