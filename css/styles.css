@@ -118,6 +118,10 @@ body {
   align-items: center;
 }
 
+.contacts .contacts-item {
+  color: var(--text-subtitle-color);
+}
+
 .contacts-item:first-child {
   margin-right: 30px;
 }
@@ -140,7 +144,6 @@ body {
   line-height: 21px;
   letter-spacing: 0.03em;
   font-weight: 400;
-  color: var(--text-subtitle-color);
 }
 
 .hero {
@@ -351,6 +354,16 @@ h1 {
 
 .footer-column-one {
   margin-right: 69px;
+}
+
+address .address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
 }
 
 .footer-column-one .our-logotype-link {
