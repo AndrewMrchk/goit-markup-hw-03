@@ -192,18 +192,9 @@ h1 {
   border-radius: 4px;
 }
 
-.advantages {
+.advantages.container {
   position: relative;
-  padding: 94px 0px;
-}
-
-.advantage-item-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--link-title-color);
+  padding-bottom: 0px;
 }
 
 .advantage-list {
@@ -225,7 +216,18 @@ h1 {
   align-content: center;
 }
 
+.advantage-item-title {
+  margin: 30px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--link-title-color);
+}
+
 .advantage-list-item p {
+  margin: 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -284,6 +286,10 @@ h1 {
 
 .team-list-item {
   width: 270px;
+  background: var(--white-text-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item:not(:nth-child(4n)) {
@@ -353,6 +359,7 @@ h1 {
 .footer-wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   padding: 60px 15px;
 }
 
@@ -389,7 +396,6 @@ address .contacts-footer:last-child {
 .footer b {
   display: block;
   margin-bottom: 20px;
-  margin-top: 12px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -523,7 +529,14 @@ input {
   display: block;
 }
 
+.project-name-wrapper {
+  padding: 20px 24px;
+}
+
 .project-name {
+  margin: 0px 0px 4px 0px;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
